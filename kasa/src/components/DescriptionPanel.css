@@ -70,36 +70,16 @@ li {
     flex-direction: column;
     justify-content: left;
 }
-/* @media screen and (width <= 375px) {
-    .apartment_description {
-        width: 350px;
-    }
+@media screen and (width <= 768) {
+    
     .description_header {
         font-size: 10px;
         line-height: 18.54px;
         padding-left: 0;
         width: 70%;
     }
-    .description_header span {
-        font-size: 14px;
-    }
-    .vector img{
-        width: 18.42px;
-        height: 18.42px;
-        padding-top: 5px;
-    }
-    .isOpen {
-        font-size: 10px;
-        line-height: 17.11px;
-        padding-bottom: 0;
-        width: 70%;
-    }
-    .description_content {
-        margin-bottom: 0;
-        width: 70%;
-    }
     .description_content .isOpen {
         font-size: 10px;
     }
     
-} */
+}

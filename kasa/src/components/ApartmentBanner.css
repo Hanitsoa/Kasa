@@ -44,23 +44,23 @@
     color: white;
     cursor: pointer;
 }
-/* @media screen and (width <= 375px) {
-    .apartmentBanner img, .apartmentBanner {
+@media screen and (width <= 768px) {
+    /* .apartmentBanner img, .apartmentBanner {
         width: 90%;
         height: 255px;
-    }
+    } */
     .previous img, .next img {
         position: absolute;
-        width: 24px;
+        width: 17.68px;
         height: 24px;
         object-fit: contain;
-        top: -35px;
-        left: -20px;
+        top: 32px;
+        left: 2px;
     } 
-    .next {
+    /* .next {
         right: 37px;
-    }   
-    .compteur {
+    }    */
+    /* .compteur {
         opacity: 0;
-    }
-} */
+    } */
+}
