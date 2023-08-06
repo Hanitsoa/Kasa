@@ -45,11 +45,7 @@
     cursor: pointer;
 }
 @media screen and (width <= 768px) {
-    /* .apartmentBanner img, .apartmentBanner {
-        width: 90%;
-        height: 255px;
-    } */
-    .previous img, .next img {
+   .previous img, .next img {
         position: absolute;
         width: 17.68px;
         height: 24px;
@@ -57,10 +53,7 @@
         top: 32px;
         left: 2px;
     } 
-    /* .next {
-        right: 37px;
-    }    */
-    /* .compteur {
+    .compteur {
         opacity: 0;
-    } */
+    }
 }
