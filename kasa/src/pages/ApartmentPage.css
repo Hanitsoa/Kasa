@@ -5,7 +5,13 @@
 }
 .ApartmentDescription_area {
     display: flex;
-    gap: 4em;
+    gap: 1em;
     justify-content: space-between;
 }
-
+@media screen and (width <= 768px) {
+    .ApartmentDescription_area {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}

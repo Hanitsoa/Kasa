@@ -12,7 +12,11 @@ function About() {
 
   return (
     <>
-      <div className='imageAboutClass'> <img src={logoBanner} alt='banner' className='imageAbout' /> </div>
+      <div className='imageAboutClass'> 
+        <img src={logoBanner} alt='banner' className='imageAbout' /> 
+        <div className='opacity'></div>
+      </div>
+      
       <div className='about_container'>
       <DescriptionPanel title="Fiabilité" content={Fiabilite} />
       <DescriptionPanel title="Respect" content={Respect} />

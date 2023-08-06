@@ -1,6 +1,6 @@
 .apartmentBanner img {
     width: 100%;
-    height: 415px;
+    height: 100%;
     margin-inline: auto;
     object-fit: cover; 
     border-radius: 10px;
@@ -21,7 +21,7 @@
 .previous {
     position: absolute;
     font-weight: 500;
-    top: 10rem;
+    top: 42%;
     left: 23.36px;
     color: white;   
     size: 18px;
@@ -38,7 +38,7 @@
 }
 .next {
     position: absolute;
-    top: 10rem;
+    top: 42%;
     right: 3rem;
     color: white;
     cursor: pointer;

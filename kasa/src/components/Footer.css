@@ -17,3 +17,12 @@
     width: 122px;
     height: 56.44px;
 }
+@media screen and (width <= 768px) {
+    .footer_logo {
+        width: 96%;
+        padding-top: 5px;
+    }
+    .footer_text {
+        font-size: 100%;
+    }
+}
