@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     gap:1rem;
     justify-content:center;
-    max-width: 1240px;
+    /* max-width: 1240px; */
     width: 100%;
 }
 .grid a {
