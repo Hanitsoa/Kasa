@@ -80,9 +80,9 @@ li {
         font-size: 10px;
     }
     .apartment_description p {
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 10px;
-        padding-right: 0;
+        line-height: 22px;
     }
     .apartment_description {
         width: 100%;

@@ -39,5 +39,8 @@
     .grid .apartment_image{
         height: 224px;
     }
+    .grid a{
+        height: 50%;
+    }
     
 }
