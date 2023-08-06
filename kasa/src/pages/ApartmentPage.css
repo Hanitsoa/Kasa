@@ -1,7 +1,5 @@
 .apartment-page {
     color: #ff6060;
-    /* margin-left: -50px; */
-    /* width: 1240px; */
     width: 100%;
     margin-inline: auto;
 }
@@ -11,12 +9,3 @@
     justify-content: space-between;
 }
 
-/* @media screen and (width <= 375px) {
-    .ApartmentDescription_area {
-        flex-direction: column;
-        width: 90%;
-    }
-    .apartment-page {
-        width: 335px;
-    }
-} */

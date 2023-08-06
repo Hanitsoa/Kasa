@@ -6,6 +6,7 @@ function Banner() {
   return (
     <div className='banner' style={{ backgroundImage: `url(${bannerImg})` }} >
         <h2>Chez vous, partout et ailleurs</h2>
+        <div className='backdrop'></div>
     </div>
   )
 }

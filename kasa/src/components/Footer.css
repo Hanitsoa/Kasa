@@ -7,7 +7,6 @@
     display: grid;
     place-items: center;
     width: 100%;
-    /* margin-left: -330px; */
 }
 .footer_text {
     font-size: 30px;
@@ -18,20 +17,3 @@
     width: 122px;
     height: 56.44px;
 }
-/* @media screen and (width <= 375px) {
-    .footer {
-        max-width: 375px;
-        width: 90%;
-        margin-left: 0;
-        padding: 0;
-    }
-    .footer_text {
-        font-size: 12px;
-        line-height: 17.11px;
-        
-    }
-    .footer_logo {
-        width: 122px;
-        height: 39.44px;
-    }
-} */

@@ -1,13 +1,7 @@
 .main {
-    /* border: 1px solid red; */
     margin-inline: auto;
     margin-bottom: 3rem;
     min-height: 65vh;
     width: 90%;
-    /* text-align: center; */
 }
-/* @media screen and (width <= 375px) {
-    .main {
-        margin-inline:0 ; 
-    }   
-} */
+

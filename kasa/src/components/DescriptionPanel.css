@@ -1,6 +1,5 @@
 .apartment_description {
     overflow: hidden;
-    /* max-width: 1023px; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -20,7 +19,6 @@ li {
 .description_header {
     background-color: #ff6060;
     color: white;
-    /* padding: 0.7rem 1rem; pad block 0.7rem, pad inline 1rem */
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -70,16 +68,20 @@ li {
     flex-direction: column;
     justify-content: left;
 }
-@media screen and (width <= 768) {
+@media screen and (width <= 768px) {
     
     .description_header {
         font-size: 10px;
         line-height: 18.54px;
         padding-left: 0;
-        width: 70%;
+        width: 87%;
+        gap: 1em;
     }
     .description_content .isOpen {
         font-size: 10px;
+    }
+    .apartment_description p {
+        font-size: 24px;
     }
     
 }

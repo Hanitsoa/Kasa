@@ -8,6 +8,10 @@
 }
 .grid a {
     text-decoration: none;
+    width: 30%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 @media screen and (width <= 768px) {
     .grid {
