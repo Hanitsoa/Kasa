@@ -13,18 +13,6 @@
         width: 100%;
         margin-inline: auto;
     }
-    /* .apartment_image {
-        width: 335px;
-        height: 255px;
-        margin-bottom: -10px;
-    } */
-    /* .apartment_image .title {
-        position: absolute;
-        left: 13px;
-        top: 160px;
-        width: 200px;
-        font-size: 12px;
-    } */
 }
 .apartment_subtitle {
     width: 50%;
@@ -54,4 +42,13 @@
 }
 .apartment a{
     text-decoration: none;
+}
+@media screen and (width <= 425px) {
+    .apartment_image .title {
+        position: absolute;
+        left: 13px;
+        top: 179px;
+        width: 197px;
+        font-size: 14px;
+    }
 }
