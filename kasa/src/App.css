@@ -26,11 +26,8 @@ body .grid {
   /* margin-inline: 30px; */
   margin: 0 auto;
 }
- /* @media screen and (width <= 375px) {
+ /* @media screen and (width <= 768px) {
   body .grid {
   margin-inline: 5px;
   }
-  .container {
-    width: 120%;
-} 
 } */

@@ -6,7 +6,8 @@
     background-color: white;
     color:#ff6060;
     font-weight: 500;
-    margin-block: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     /* max-width: 1240px; */
     width: 90%;
     margin-inline: auto;
@@ -41,35 +42,28 @@
 .navbar > *:first-child { /*1er enfant direct*/
     margin-right: auto;
 }
-/* @media screen and (width <= 375px) {
-    .navbar {
-        width: 52%;
-        height: 47px;
-        margin-top: 20px;
-        margin-bottom: 0;
-        gap: 0;
-    }
+@media screen and (width <= 768px) {
     .navbar_details {
-        width: 100%;
-        height: 17px;
-        gap: 0.5em;
-        margin-top: -5px;
+        /* width: 100%;
+        height: 17px; */
+        gap: 1em;
+        /* margin-top: -5px;
         margin-right: -140px;
         display: flex;
         justify-content: right;
-        padding-right: 0;
+        padding-right: 0; */
     }
-    .navbar_logo {
-        margin-right: -15px;
+    .navbar {
+        margin-bottom: 0px;
     }
     .navbar_logo img{
-        width: 80%;
+        width: 90%;
         height: 45%;
         margin-top: 15px;
     }
     .accueil, .apropos {
-        font-size: 60%;
-        width: 60px;
+        font-size: 90%;
+        width: 100%;
         line-height: 17.11px;
         padding-left: 0;
     }
@@ -77,4 +71,4 @@
         text-transform: uppercase;
         font-weight: 500;
     }
-} */
+}
