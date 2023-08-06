@@ -7,7 +7,7 @@ import './ErrorPageNotFound.css';
 
 function ErrorPageNotFound() {
     return (
-        <>
+        <div className='pageError'>
             <Navbar />
             <Main>
                 <div className='error-page'>
@@ -16,7 +16,7 @@ function ErrorPageNotFound() {
                     <Link to='/' className='accueil'>Retourner sur la page d'accueil</Link>
                 </div>
             </Main>
-        </>
+        </div>
     )
 }
 
