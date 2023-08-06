@@ -1,9 +1,5 @@
 /* .container {
   max-width: 1240px;
-  width: 100%;
-  text-align: center;
-  /* border: 1px solid red; */
-  /* margin-left: -50px; */
 /* } */ */
 body {
   /* max-width: 1240px; */
@@ -26,7 +22,7 @@ body .banner {
 }
 body .grid {
   padding-left: 0px;
-  padding-top: 30px;
+  padding-top: 15px;
   /* margin-inline: 30px; */
   margin: 0 auto;
 }

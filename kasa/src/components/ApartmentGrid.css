@@ -3,7 +3,7 @@
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap:1rem;
+    /* gap:1rem; */
     justify-content:center;
     /* max-width: 1240px; */
     width: 100%;
