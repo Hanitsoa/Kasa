@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './ApartmentPage.css';
 import ApartmentBanner from '../components/ApartmentBanner';
 import ApartmentHeader from '../components/ApartmentHeader';
-// import { useLocation } from 'react-router-dom';
 import DescriptionPanel from '../components/DescriptionPanel';
 import flats from "../data/apartments.json";
-import ErrorPageNotFound from './ErrorPageNotFound';
 import { useParams, redirect } from 'react-router-dom';
 
 function ApartmentPage() {

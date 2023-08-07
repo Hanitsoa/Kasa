@@ -73,7 +73,7 @@ li {
         font-size: 10px;
         line-height: 18.54px;
         padding-left: 0;
-        width: 96%;
+        /* width: 96%; */
         gap: 1em;
     }
     .description_content .isOpen {
