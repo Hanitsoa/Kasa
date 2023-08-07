@@ -1,6 +1,5 @@
 import React from 'react';
 import './ErrorPageNotFound.css';
-import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import { Link } from 'react-router-dom';
 import './ErrorPageNotFound.css';
@@ -8,7 +7,6 @@ import './ErrorPageNotFound.css';
 function ErrorPageNotFound() {
     return (
         <div className='pageError'>
-            <Navbar />
             <Main>
                 <div className='error-page'>
                     <h1>404</h1>
